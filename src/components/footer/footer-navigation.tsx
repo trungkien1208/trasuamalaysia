@@ -8,19 +8,32 @@ import { FooterSectionTitle } from '@/components/footer'
 
 const courseMenu: Array<Navigation> = [
   {
-    label: 'UI/UX Design',
+    label: 'Trà sữa BOH Teh Tarik Vị Truyền Thống',
     path: '#',
   },
   {
-    label: 'Mobile Development',
+    label: 'Trà sữa BOH Teh Tarik Vị Gừng',
     path: '#',
   },
   {
-    label: 'Machine Learning',
+    label: 'Trà sữa BOH Teh Tarik Vị Trà sữa Mix Cà Phê',
     path: '#',
   },
   {
-    label: 'Web Development',
+    label: 'Trà sữa BOH Teh Tarik Vị Matcha Latte',
+    path: '#',
+  },
+
+  {
+    label: 'Trà trái cây BOH Vị Đào',
+    path: '#',
+  },
+  {
+    label: 'Trà trái cây BOH Vị Chanh',
+    path: '#',
+  },
+  {
+    label: 'Trà trái cây BOH Vị Trái Cây Nhiệt Đới',
     path: '#',
   },
 ]
@@ -28,10 +41,10 @@ const courseMenu: Array<Navigation> = [
 const pageMenu = headerNavigations
 
 const companyMenu: Array<Navigation> = [
-  { label: 'Contact Us', path: '#' },
-  { label: 'Privacy & Policy', path: '#' },
-  { label: 'Term & Condition', path: '#' },
-  { label: 'FAQ', path: '#' },
+  { label: 'Liên hệ với chúng tôi', path: '#' },
+  { label: 'Chính sách bảo mật', path: '#' },
+  { label: 'Điều khoản & Điều kiện', path: '#' },
+  { label: 'Câu hỏi thường gặp', path: '#' },
 ]
 
 interface NavigationItemProps {
@@ -60,7 +73,7 @@ const FooterNavigation: FC = () => {
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="Course" />
+        <FooterSectionTitle title="Sản phẩm" />
         {courseMenu.map(({ label, path }, index) => (
           <NavigationItem key={index + path} label={label} path={/* path */ '#'} />
         ))}
@@ -72,7 +85,7 @@ const FooterNavigation: FC = () => {
         ))}
       </Grid>
       <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="About" />
+        <FooterSectionTitle title="Về chúng tôi" />
         {companyMenu.map(({ label, path }, index) => (
           <NavigationItem key={index + path} label={label} path={path} />
         ))}

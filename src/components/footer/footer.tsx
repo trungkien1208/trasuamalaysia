@@ -16,11 +16,21 @@ const Footer: FC = () => {
           <Grid item xs={12} md={5}>
             <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
               <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
-                Coursespace
+                Trà sữa Malaysia
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                Coursespace is an online learning platform that has been operating since 2018 until now.
+                Địa chỉ: 223B Hoàng Văn Thụ, Phường 8, Quận Phú Nhuận, TP.HCM
               </Typography>
+              <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
+                Số điện thoại: 0901 26 9595 (Ms.Trang)
+              </Typography>
+              <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
+                Email:{' '}
+                <a href="mailto:hientrang.1206@gmail.com" style={{ color: 'white' }}>
+                  hientrang.1206@gmail.com
+                </a>{' '}
+              </Typography>
+
               <FooterSocialLinks />
             </Box>
           </Grid>

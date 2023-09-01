@@ -63,7 +63,7 @@ const HomeTestimonial: FC = () => {
   }
 
   return (
-    <Box id="testimonial" sx={{ pb: { xs: 6, md: 10 }, backgroundColor: 'background.paper' }}>
+    <Box id="about-us" sx={{ pb: { xs: 6, md: 10 }, backgroundColor: 'background.paper' }}>
       <Container>
         <Grid container spacing={5}>
           <Grid item xs={12} md={6}>
@@ -78,7 +78,7 @@ const HomeTestimonial: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Testimonial What our{' '}
+              Khách hàng nói gì về <p></p>
               <Typography
                 component="mark"
                 sx={{
@@ -89,20 +89,19 @@ const HomeTestimonial: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Students{' '}
+                Trà sữa Malaysia{' '}
                 <Box
                   sx={{
                     position: 'absolute',
-                    top: { xs: 20, md: 28 },
+                    top: { xs: 40, md: 50 },
                     left: 2,
-                    '& img': { width: { xs: 130, md: 175 }, height: 'auto' },
+                    '& img': { width: { xs: 250, md: 300 }, height: 'auto' },
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Say
             </Typography>
 
             <StyledSlickContainer>
@@ -114,8 +113,22 @@ const HomeTestimonial: FC = () => {
             </StyledSlickContainer>
           </Grid>
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
-            <Box sx={{ width: { xs: '100%', md: '90%' } }}>
-              <Image src="/images/home-testimonial.png" width={520} height={540} quality={97} alt="Testimonial img" />
+            <Box
+              sx={{
+                width: { xs: '100%', md: '90%' },
+                borderRadius: 2,
+              }}
+            >
+              <Image
+                style={{
+                  borderRadius: '50px',
+                }}
+                src="/images/home-testimonial.jpg"
+                width={520}
+                height={540}
+                quality={97}
+                alt="Testimonial img"
+              />
             </Box>
           </Grid>
         </Grid>

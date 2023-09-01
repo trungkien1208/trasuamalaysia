@@ -3,61 +3,61 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Hương Vị Độc Đáo',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'BOH Teh Tarik thực sự là sự kết hợp hoàn hảo giữa trà và sữa. Hương vị độc đáo và đậm đà này khiến tôi luôn muốn quay lại.',
     user: {
       id: 1,
-      name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      name: 'Nguyễn Thảo',
+      professional: 'Người yêu thức uống trà',
       photo: '1.jpg',
     },
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Chất Lượng Xuất Sắc',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Tôi đã thử nhiều loại trà sữa, nhưng BOH Teh Tarik thực sự xuất sắc hơn cả. Hương vị và chất lượng không thể đánh bại.',
     user: {
-      id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
+      id: 2,
+      name: 'Trần Đức Anh',
+      professional: 'Designer',
       photo: '2.jpg',
     },
   },
   {
     id: 3,
-    title: 'Very complete class',
+    title: 'Hỗ Trợ Tuyệt Vời',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Tôi đã có một trải nghiệm mua hàng tuyệt vời với BOH Teh Tarik. Dịch vụ khách hàng và hỗ trợ rất chuyên nghiệp.',
     user: {
-      id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
+      id: 3,
+      name: 'Phạm Văn Hoàng',
+      professional: 'Nhà Kinh Doanh',
       photo: '3.jpg',
     },
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'Yêu Hương Vị Này',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'BOH Teh Tarik thực sự đã chinh phục trái tim của tôi với hương vị độc đáo và thơm ngon. Tôi không thể nào quên được nó!',
     user: {
-      id: 1,
-      name: 'Diana Jordan',
-      professional: 'SEO Expert',
+      id: 4,
+      name: 'Lê Thị Mai',
+      professional: 'Nhà Nghiên Cứu',
       photo: '4.jpg',
     },
   },
   {
     id: 5,
-    title: 'Detailed learning materials',
+    title: 'Trà Sữa Tốt Nhất',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'Sau khi thử nhiều loại trà sữa, tôi có thể khẳng định rằng BOH Teh Tarik là trà sữa tốt nhất mà tôi từng thưởng thức.',
     user: {
-      id: 1,
-      name: 'Ashley Graham',
-      professional: 'Back-End Developer',
+      id: 5,
+      name: 'Nguyễn Minh Trí',
+      professional: 'Sinh Viên',
       photo: '5.jpg',
     },
   },

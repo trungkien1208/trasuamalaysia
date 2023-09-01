@@ -8,13 +8,26 @@ interface Props {
 
 const Logo: FC<Props> = ({ onClick, variant }) => {
   return (
-    <Box onClick={onClick}>
+    <Box
+      onClick={onClick}
+      sx={{
+        cursor: 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        width: '200px',
+        '& img': { width: 44, height: 'auto' },
+      }}
+    >
       <Typography
         variant="h4"
         component="h1"
-        sx={{ fontWeight: 700, '& span': { color: variant === 'primary' ? 'primary.main' : 'unset' } }}
+        sx={{
+          fontWeight: 700,
+          display: 'inline-block',
+          '& span': { color: variant === 'primary' ? 'primary.main' : 'unset' },
+        }}
       >
-        Course<span>space</span>
+        Trà sữa <span>Maylaysia</span>
       </Typography>
     </Box>
   )
