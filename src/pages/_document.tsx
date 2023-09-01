@@ -37,6 +37,14 @@ class MyDocument extends Document<DocumentProps> {
           />
           {/* Inject MUI styles first to match with the prepend: true configuration. */}
           {this.props.emotionStylesTags}
+          {/* create meta data when sharing facebook */}
+          <meta property="og:url" content="https://trasuamalaysia.vercel.app/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Trà sữa Maylaysia" />
+          <meta property="og:description" content="Trà sữa Maylaysia" />
+          <meta property="og:image" content="https://trasuamalaysia.vercel.app/images/logo.png" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
         </Head>
         <body>
           <Main />
